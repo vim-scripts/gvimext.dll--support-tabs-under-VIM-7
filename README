@@ -1,0 +1,15 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1720
+
+Important: this update only applies to VIM 7.
+
+This update to gvimext.dll supports the loading of files under a new tab in VIM 7.  Both the gvimext.dll and its updated source codes are provided in the attached zip file.
+
+I believe this code change will be included in the upcoming VIM release.  So this upload is for the brave and the impatient.
+
+Below is the usage:
+0.  The new dll will display "Edit with ... using tabs" options upon right-click on files in Windows Explorer based on a registry key and the Shift key combination.
+1.  If you don't import UseTab.reg file into registry, gvimext.dll will behave just like before the change.  You can still get the "using tabs" options by holding down the Shift key before right-clicking the files.
+2.  Shift key effect
+Shift key serves as a toggle key for the "Edit with ... using tabs" context menu.  If you hold down the Shift key and then right-click the selected files in Windows Explorer, the opposite of the default Vim context menu will display.
+Once the Vim content menu displays, you don't need to hold down the Shift key anymore.  Its effect will hold until the next Right-Click.
+
